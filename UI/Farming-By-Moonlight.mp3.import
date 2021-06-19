@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Farming-By-Moonlight.mp3-72ff8deaa2017c37c1008964f6aa2d6c.mp3str"
+
+[deps]
+
+source_file="res://UI/Farming-By-Moonlight.mp3"
+dest_files=[ "res://.import/Farming-By-Moonlight.mp3-72ff8deaa2017c37c1008964f6aa2d6c.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

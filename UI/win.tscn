@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://bullet.png" type="Texture" id=1]
+[ext_resource path="res://UI/win.gd" type="Script" id=2]
+
+[sub_resource type="CircleShape2D" id=1]
+radius = 50.0
+
+[node name="win" type="Area2D"]
+script = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource( 1 )
+
+[node name="bullet" type="Sprite" parent="."]
+scale = Vector2( 0.384165, 0.384165 )
+texture = ExtResource( 1 )
+
+[connection signal="body_entered" from="." to="." method="_on_win_body_entered"]

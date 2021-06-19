@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/gun_shot_and_gun_cock.wav-e874e153b417ee7c2475fac05f6e56f5.sample"
+
+[deps]
+
+source_file="res://UI/gun_shot_and_gun_cock.wav"
+dest_files=[ "res://.import/gun_shot_and_gun_cock.wav-e874e153b417ee7c2475fac05f6e56f5.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
